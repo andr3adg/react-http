@@ -5,7 +5,7 @@ import "./Post.css";
 const post = (props) => (
   <article
     className="Post"
-    style={{ backgroundColor: props.isSelected ? "red" : "white" }}
+    style={{ backgroundColor: props.isSelected ? "lightblue" : "white" }}
     onClick={() => props.clicked(props.id)}
   >
     <h1>{props.title}</h1>
